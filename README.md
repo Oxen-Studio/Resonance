@@ -52,7 +52,7 @@ To get started, download the latest version of Resonance for your operating syst
 
 #### macOS
 
-* Download the `.app` file
+* Download the `Resonance_mac` file and extract it
 * Open the Terminal and navigate to the downloaded folder using `cd`
 	+ Example: `cd ./Downloads/Resonance.app`
 * Run the command `xattr -dr com.apple.quarantine Resonance.app` to remove quarantine attributes
@@ -61,7 +61,7 @@ To get started, download the latest version of Resonance for your operating syst
 
 #### Windows
 
-* Download the `.msi` installer file
+* Download the `Resonance_win` installer file and extract it
 * Double-click on the downloaded file and follow the prompts:
 	+ Click "Proceed Anyway" when prompted by Windows Defender
 	+ Confirm the installation settings (or change them if desired)
