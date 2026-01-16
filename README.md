@@ -124,7 +124,7 @@ We made a little bash script to help you manage your music, it's not much, but i
 Found a bug? We'll send you a picture of a thumbs-up in exchange for any identified bug.
 
 * Open an issue for bugs or feature requests  
-* Share feedback on Twitter/X or in the comments
+* ~~Share feedback on Twitter/X or in the comments~~ (Not yet created, but we will be very happy to see you share your love for it)
 * Have an idea for a custom skin? Let us know
 
 ## Philosophy
