@@ -1,12 +1,12 @@
 <div align="center">
-  <img width="128" height="auto" alt="" src="https://github.com/user-attachments/assets/18744cda-e931-48ae-a270-7b1c5e86e441" />
+  <img width="128" height="auto" alt="icon" src="/preview/icon.png" />
   <h1>Resonance</h1>
   A lightweight local music player inspired by the golden era of classic desktop players.
   <br>
 <br>
 <p>
-  <img width="49%" height="auto" alt="" src="https://github.com/user-attachments/assets/a2353c89-6656-4071-9fb6-572cc3948575" />
-  <img width="49%" height="auto" alt="" src="https://github.com/user-attachments/assets/17b2aaf0-dc50-4f33-b1eb-82ea3f3fe815" />
+  <img width="49%" height="auto" alt="dark-max" src="/preview/dark-max.png" />
+  <img width="49%" height="auto" alt="light-max" src="/preview/light-max.png" />
 </p>
 </div>
 
@@ -37,8 +37,8 @@ Browse your library, play instantly, and enjoy a clean, nostalgic experience.
 <div align="center">
   <br>
 <p>
-  <img width="49%" height="auto" alt="" src="https://github.com/user-attachments/assets/0bdd92f1-eaf0-4f73-a5c2-63f9ad5e76a1" />
-  <img width="49%" height="auto" alt="" src="https://github.com/user-attachments/assets/fa2e786f-2432-4224-9dc2-8cf119180b39" />
+  <img width="49%" height="auto" alt="dark-mini" src="/preview/dark-mini.png" />
+  <img width="49%" height="auto" alt="light-mini" src="/preview/light-mini.png" />
 </p>
 </div>
 
