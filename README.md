@@ -28,6 +28,7 @@ Browse your library, play instantly, and enjoy a clean, nostalgic experience.
 * **Full Controls** - Play, pause, stop, skip tracks forward and back
 * **Shuffle & Loop** - Randomize your library or repeat your favorite song endlessly
 * **Volume Control** - Adjust volume or mute as needed
+* **Equalizer** - Adjust the frequencies as you please
 * **Mini Mode** - Compact player that auto-hides when not hovered (lockable if you want it visible)
 * **Skeuomorphic Design** - Frutiger Aero aesthetics, because flat design is boring
 * **Lightweight** - Won't destroy your RAM or slow you down
@@ -83,7 +84,8 @@ warnings and enjoy using Resonance!
 ### How to load musics?
 
 * Click on the folder icon and select the folder containing your music files.
-* Note: Currently, Resonance only supports loading one folder at a time. We're working on improving this feature!
+* ~~Note: Currently, Resonance only supports loading one folder at a time. We're working on improving this feature!~~
+* Now support your entire folder ! (tested on a M1 pro, loading a Music folder whith 4 level of folders and 903 musics takes 1.16sec)
 
 ### How to minify the app?
 
@@ -101,30 +103,40 @@ warnings and enjoy using Resonance!
 
 We made a little bash script to help you manage your music, it's not much, but it's honest work [oxen-converter](https://github.com/Oxen-Studio/oxen-converter)
 
-## Roadmap
+## Roadmap (Unordered list)
 
 1. **Tracklist Window Enhancements**
 	* Develop a detailed track list window displaying metadata such as:
 		- Song title and artist
 		- Album art and details
 		- Bitrate, sample rate, and codec information for each file
-2. **Folder Handling**
-	* Support multiple folder selection and management (Yes we only handle one folder, but we have to start somewhere aren't we?)
-3. **Equalizer Window**
-	* Implement an intuitive equalizer for customizing audio settings
+2. **~~Folder Handling~~**
+   	* ~~Support multiple folder selection and management (Yes we only handle one folder, but we have to start somewhere aren't we?)~~
+3. **~~Equalizer Window~~**
+   	* ~~Implement an intuitive equalizer for customizing audio settings~~
 4. **ID3 Tag Updater Window**
 	* Update metadata with accurate information
 5. **Transcoder/Remuxer Window**
 	* Allow seamless transcoding and remuxing of audio files
 6. **Library maker window**
 	* Update your library folder to create, based on the metadata, the artist/album folders containing your music files.
+7. **Visualizer**
+	* Create a small visualizer
+	* Create an old school visualizer
+8. **Upgrade the Equalizer**
+	* Handle a Custom equalizer preset to store your preset.
+	* Update the equalizer to handle left/right correction, pitch and speed.
+9. **Play counter**
+	* Store the number of play a music have (Used to filter my most loved).
+9. **Skin handler**
+	* Basic system to load a custom skin in Resonance (At least changing the cover, buttons and size of the app. The first iteration may not have a customizable "screen").
 
 ## Contributing
 
 Found a bug? We'll send you a picture of a thumbs-up in exchange for any identified bug.
 
 * Open an issue for bugs or feature requests  
-* ~~Share feedback on Twitter/X or in the comments~~ (Not yet created, but we will be very happy to see you share your love for it)
+* Share feedback on ~~Twitter/X or in the comments~~ Reddit (Twitter is not yet created, but we will be very happy to see you share your love for it)
 * Have an idea for a custom skin? Let us know
 
 ## Philosophy
