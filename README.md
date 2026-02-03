@@ -51,7 +51,7 @@ Download the [latest version](https://github.com/Oxen-Studio/Resonance/releases)
 
 ### macOS
 
-###### Apple Intel support is no longer available.
+###### Apple Silicon
 
 - Download `Resonance_mac` and extract it.
 
