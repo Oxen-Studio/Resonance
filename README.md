@@ -1,11 +1,11 @@
 <div align="center">
-  <img width="128" height="auto" alt="icon" src="https://github.com/user-attachments/assets/6c834aa0-bda2-422b-8fac-8da85636b6ce" />
+  <img width="96" height="auto" alt="icon" src="https://github.com/user-attachments/assets/6c834aa0-bda2-422b-8fac-8da85636b6ce" />
   <h1>Resonance</h1>
   A lightweight local music player inspired by the golden era of classic desktop players.
   <br><br>
   <p>
-    <img width="49%" height="auto" alt="dark-max" src="https://github.com/user-attachments/assets/5d1ddfaa-6bb5-434d-bab2-964f5929fbda" />
-    <img width="49%" height="auto" alt="light-max" src="https://github.com/user-attachments/assets/3bbf7b56-0f9b-419a-854d-681e12c245da" />
+    <img width="49%" height="auto" alt="" src="https://github.com/user-attachments/assets/c1617d50-0807-4ea4-98da-9789e2b0fc16" />
+    <img width="49%" height="auto" alt="" src="https://github.com/user-attachments/assets/6fa27488-6768-400f-9105-ce64ba52faaa" />
   </p>
 </div>
 
@@ -40,8 +40,8 @@ Browse your library, hit play instantly, and enjoy a clean, nostalgic experience
 <div align="center">
   <br>
   <p>
-    <img width="49%" height="auto" alt="dark-mini" src="https://github.com/user-attachments/assets/25ef307f-ba2c-418c-ad40-cd316e0ae161"/>
-    <img width="49%" height="auto" alt="light-mini" src="https://github.com/user-attachments/assets/54589d93-d915-46e5-8087-c07f08715326" />
+    <img width="49%" height="auto" alt="" src="https://github.com/user-attachments/assets/4c20e612-9501-48bc-b418-0b4f4def8185"/>
+    <img width="49%" height="auto" alt="" src="https://github.com/user-attachments/assets/898fe7fb-d9ff-4d9f-bc7b-b44dbd484b4f" />
   </p>
 </div>
 
@@ -50,6 +50,8 @@ Browse your library, hit play instantly, and enjoy a clean, nostalgic experience
 Download the [latest version](https://github.com/Oxen-Studio/Resonance/releases) for your operating system and carefully follow the instructions below.
 
 ### macOS
+
+###### Apple Intel support is no longer available.
 
 - Download `Resonance_mac` and extract it.
 
@@ -90,8 +92,16 @@ Following the steps above safely bypasses those warnings so you can use Resonanc
 <summary><h3>How do I load music?</h3></summary>
 
 - Click the <b>folder icon</b> and select your music folder.
-  - Full folder trees are supported
+  - Choose your entire library; full folder trees are supported
   - Tested on an M1 Pro: a 4-level folder structure with <b>903 tracks</b> loads in <b>~1.16 seconds</b>
+
+<div align="center">
+  <br>
+  <p>
+    <img width="49%" height="auto" alt="" src="https://github.com/user-attachments/assets/a6a1dfef-c087-436e-89c4-07a22e447951"/>
+    <img width="49%" height="auto" alt="" src="https://github.com/user-attachments/assets/c75d487e-9485-4198-b72f-3a26aa391147" />
+  </p>
+</div>
 
 </details>
 
@@ -106,7 +116,14 @@ Following the steps above safely bypasses those warnings so you can use Resonanc
 <summary><h3>The app disappeared. Help?!</h3></summary>
 
 - Click the <b>middle-right edge of your screen</b> (about an inch from the screen border).
-  - The app will magically reappear
+
+<div align="center">
+  <br>
+  <p>
+    <img width="49%" height="auto" alt="" src="https://github.com/user-attachments/assets/ebd0ed64-1f45-4d03-ae7c-6221108e5dbc"/>
+    <img width="49%" height="auto" alt="" src="https://github.com/user-attachments/assets/a3b64e3c-8a41-4296-a532-1bcdb1867724" />
+  </p>
+</div>
 
 </details>
 
