@@ -59,7 +59,7 @@ Download the [latest version](https://github.com/Oxen-Studio/Resonance/releases)
 > 2. Remove quarantine attributes using the following command:  
 >    `xattr -dr com.apple.quarantine Resonance.app`
 
-- You can now safely use [Resonance](https://github.com/Oxen-Studio/Resonance) 🎉
+- You can now safely use [Resonance](https://github.com/Oxen-Studio/Resonance)
   - Launch it instantly from anywhere by simply double-clicking it.
   - Or move the app to your `Applications` folder for quick access via **Spotlight**.
 
@@ -90,8 +90,8 @@ Following the steps above safely bypasses those warnings so you can use Resonanc
 <summary><h3>How do I load music?</h3></summary>
 
 - Click the <b>folder icon</b> and select your music folder.
-  - Full folder trees are supported ✅  
-  - Tested on an M1 Pro: a 4-level folder structure with <b>903 tracks</b> loads in <b>~1.16 seconds</b> 🏆
+  - Full folder trees are supported
+  - Tested on an M1 Pro: a 4-level folder structure with <b>903 tracks</b> loads in <b>~1.16 seconds</b>
 
 </details>
 
@@ -106,7 +106,7 @@ Following the steps above safely bypasses those warnings so you can use Resonanc
 <summary><h3>The app disappeared. Help?!</h3></summary>
 
 - Click the <b>middle-right edge of your screen</b> (about an inch from the screen border).
-  - The app will magically reappear 🪄
+  - The app will magically reappear
 
 </details>
 
@@ -120,23 +120,24 @@ Following the steps above safely bypasses those warnings so you can use Resonanc
 ## Roadmap (Unordered)
 
 - [ ] **Tracklist Window Enhancements**
-  - Song title & artist
-  - Album art & album details
-  - Bitrate, sample rate, codec
+  - [x] Song title & artist
+  - [x] Album art & album details
+  - [x] Bitrate, sample rate
+  - [ ] Codec
 - [x] **Folder Handling**
-  - Multiple folder support
+  - [x] Multiple folder support
 - [x] **Equalizer Window**
-  - Basic EQ controls
+  - [x] Basic EQ controls
 - [ ] **ID3 Tag Updater**
 - [ ] **Transcoder / Remuxer**
 - [ ] **Library Maker**
 - [ ] **Visualizer**
-  - Simple visualizer
-  - Old-school visualizer
+  - [x] Simple visualizer
+  - [ ] Old-school visualizer
 - [ ] **Equalizer Upgrade**
-  - Presets
-  - Left/right balance
-  - Pitch & speed
+  - [x] Presets
+  - [ ] Left/right balance
+  - [ ] Pitch & speed
 - [ ] **Play Counter**
 - [ ] **Skin Handler**
 
@@ -144,7 +145,7 @@ Following the steps above safely bypasses those warnings so you can use Resonanc
 
 > [!NOTE]
 > We made a small bash script to help manage your music. It’s not much, but it’s honest work.  
-> 👉 [Oxen Converter](https://github.com/Oxen-Studio/oxen-converter)
+> [Oxen Converter](https://github.com/Oxen-Studio/oxen-converter)
 
 ## Contributing
 
