@@ -1,4 +1,6 @@
 <div align="center">
+  <h6>macOS → Read the <a href="#installation">installation</a> guide or the app won't launch.</h6>
+  <br>
   <img width="96" height="auto" alt="icon" src="https://github.com/user-attachments/assets/6c834aa0-bda2-422b-8fac-8da85636b6ce" />
   <h1>Resonance</h1>
   A lightweight local music player inspired by the golden era of classic desktop players.
