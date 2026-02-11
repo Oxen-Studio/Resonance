@@ -155,10 +155,11 @@ Following the steps above safely bypasses those warnings so you can use Resonanc
   - [ ] Old-school visualizer
 - [ ] **Equalizer Upgrade**
   - [x] Presets
-  - [ ] Left/right balance
+  - [x] Left/right balance
   - [ ] Pitch & speed
 - [ ] **Play Counter**
 - [ ] **Skin Handler**
+- [x] **Sfx Sounds**
 
 ### Bonus
 
