@@ -54,7 +54,7 @@ Download the [latest version](https://github.com/Oxen-Studio/Resonance/releases)
 ### macOS
 
 ###### Apple Silicon
-
+(macOS Sonoma/Sequoia/Tahoe, others like Monterey should works but no tested)
 - Download `Resonance_mac` and extract it.
 
 > [!IMPORTANT]
@@ -68,7 +68,7 @@ Download the [latest version](https://github.com/Oxen-Studio/Resonance/releases)
   - Or move the app to your `Applications` folder for quick access via **Spotlight**.
 
 ### Windows
-
+(Windows 10/11, Windows 8 untested)
 - Download `Resonance_win` installer and extract it.
 - Double-click the installer and follow the prompts:
   - Click `Proceed Anyway` if **Windows Defender** warns you.
