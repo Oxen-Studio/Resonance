@@ -51,24 +51,44 @@ Browse your library, hit play instantly, and enjoy a clean, nostalgic experience
 
 Download the [latest version](https://github.com/Oxen-Studio/Resonance/releases) for your operating system and carefully follow the instructions below.
 
-### macOS
+It is recommended to have 8 GB RAM or more, a dedicated GPU (integrated GPUs work), and an SSD if you have large music libraries (3,000 songs or more).
 
-###### Apple Silicon
-(macOS Sonoma/Sequoia/Tahoe, others like Monterey should works but no tested)
-- Download `Resonance_mac` and extract it.
+<details open>
+<summary><h3>Apple Silicon</h3></summary>
+
+Stable on Apple Silicon Macs running macOS Big Sur 11.0 or later.
+
+| Version | Status |
+|:-:|:-:|
+| macOS Sequoia 15.7.4 | Tested ✓ |
+| macOS Tahoe 26.3 | Tested ✓ |
+
+</details>
+
+1. Download `Resonance_mac` and extract it.
 
 > [!IMPORTANT]
-> 1. Open **Terminal** and navigate to the folder where the app is located  
+> - Open **Terminal** and navigate to the folder where the app is located  
 >    e.g. `cd Downloads`  
-> 2. Remove quarantine attributes using the following command:  
+> - Remove quarantine attributes using the following command:  
 >    `xattr -dr com.apple.quarantine Resonance.app`
 
-- You can now safely use [Resonance](https://github.com/Oxen-Studio/Resonance)
-  - Launch it instantly from anywhere by simply double-clicking it.
-  - Or move the app to your `Applications` folder for quick access via **Spotlight**.
+4. You can now safely use [Resonance](https://github.com/Oxen-Studio/Resonance)
+    - Launch it instantly from anywhere by simply double-clicking it.
+    - Or move the app to your `Applications` folder for quick access via **Spotlight**.
 
-### Windows
-(Windows 10/11, Windows 8 untested)
+<details open>
+<summary><h3>Windows</h3></summary>
+
+Stable on PCs running Windows 10 or later.
+
+| Version | Status |
+|:-:|:-:|
+| Windows 11 | Tested ✓ |
+| Windows 10 | Tested ✓ |
+
+</details>
+
 - Download `Resonance_win` installer and extract it.
 - Double-click the installer and follow the prompts:
   - Click `Proceed Anyway` if **Windows Defender** warns you.
