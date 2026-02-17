@@ -98,7 +98,7 @@ Stable on PCs running Windows 10 or later.
 
 ### Linux
 
-**TBA**
+###### TBA
 
 ### Why the Extra Steps?
 
