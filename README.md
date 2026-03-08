@@ -51,7 +51,7 @@ Browse your library, hit play instantly, and enjoy a clean, nostalgic experience
 
 Download the [latest version](https://github.com/Oxen-Studio/Resonance/releases) for your operating system and carefully follow the instructions below.
 
-For large libraries of +10,000 songs, it is recommended to have at least 8 GB of RAM and an SSD.
+For large libraries of +10,000 songs, it is recommended to have at least 8 GB of RAM and an SSD.  
 However, the app is lightweight and can probably run on your smart refrigerator.
 
 <details open>
