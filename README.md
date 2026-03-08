@@ -100,7 +100,7 @@ Stable on PCs running Windows 10 or later.
 
 ### Linux
 
-###### TBA
+###### Scheduled for the next major update.
 
 ### Why the Extra Steps?
 
@@ -115,7 +115,7 @@ Following the steps above safely bypasses those warnings so you can use Resonanc
 <details open>
 <summary><h3>How do I load music?</h3></summary>
 
-- Click the <b>folder icon</b> and select your music folder.
+- <b>Drag & drop</b> or click the <b>folder icon</b> and select your music folder.
   - Choose your entire library; full folder trees are supported
   - Tested on an M1 Pro: a 4-level folder structure with <b>903 tracks</b> loads in <b>~1.16 seconds</b>
 
@@ -158,30 +158,41 @@ Following the steps above safely bypasses those warnings so you can use Resonanc
 
 </details>
 
-## Roadmap (Unordered)
+## Roadmap
 
-- [ ] **Tracklist Window Enhancements**
-  - [x] Song title & artist
-  - [x] Album art & album details
-  - [x] Bitrate, sample rate
-  - [ ] Codec
-- [x] **Folder Handling**
-  - [x] Multiple folder support
-- [x] **Equalizer Window**
-  - [x] Basic EQ controls
-- [ ] **ID3 Tag Updater**
-- [ ] **Transcoder / Remuxer**
-- [ ] **Library Maker**
-- [ ] **Visualizer**
-  - [x] Simple visualizer
-  - [ ] Old-school visualizer
-- [ ] **Equalizer Upgrade**
-  - [x] Presets
-  - [x] Left/right balance
-  - [ ] Pitch & speed
-- [ ] **Play Counter**
-- [ ] **Skin Handler**
-- [x] **Sfx Sounds**
+###### Tracklist & Library
+- [x] Song title, artist, album art & details
+- [x] Bitrate & sample rate
+- [x] Multi-folder support
+- [x] Codec display
+- [ ] Drag & drop file support
+
+###### Playback
+- [x] SFX sounds
+- [ ] Gapless playback
+- [ ] OS media controls *(play, pause, skip via keyboard / system)*
+
+###### Equalizer
+- [x] Basic EQ controls
+- [x] Presets
+- [x] Left / right balance
+- [x] Custom preset saving
+- [ ] Pitch & speed
+
+###### Visualizer
+- [x] Simple visualizer
+- [ ] Old-school visualizer
+
+###### Library & Playlists
+- [ ] Playlist support *(create, edit, reorder)*
+
+###### Metadata
+- [ ] ID3 tag editor
+
+###### Advanced
+- [ ] Transcoder / remuxer
+- [ ] Skin support
+- [ ] Play counter
 
 ### Bonus
 
