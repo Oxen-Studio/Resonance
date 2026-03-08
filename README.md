@@ -51,7 +51,8 @@ Browse your library, hit play instantly, and enjoy a clean, nostalgic experience
 
 Download the [latest version](https://github.com/Oxen-Studio/Resonance/releases) for your operating system and carefully follow the instructions below.
 
-It is recommended to have 8 GB RAM or more, a dedicated GPU (integrated GPUs work), and an SSD if you have large music libraries (3,000 songs or more).
+For large libraries of +10,000 songs, it is recommended to have at least 8 GB of RAM and an SSD.
+However, the app is lightweight and can probably run on your smart refrigerator.
 
 <details open>
 <summary><h3>Apple Silicon</h3></summary>
