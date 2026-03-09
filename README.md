@@ -26,11 +26,12 @@ All shipped as a simple, portable audio player.
 
 ## Features
 
+Support any standard audio format, e.g. `MP3`, `FLAC`, `AIFF`, `ALAC`, `OGG`, `WAV`, etc.
+
 Browse your library, hit play instantly, and enjoy a clean, nostalgic experience.
 
 - **Instant Playback** - Load albums and play immediately
-- **Full Controls** - Play, pause, stop, next, previous
-- **Shuffle & Loop** - Randomize your library or loop a single track
+- **Full Controls** - Play, pause, skip, shuffle, and loop
 - **Volume Control** - Adjust volume or mute anytime
 - **Equalizer** - Tune frequencies to your taste
 - **Mini Mode** - Compact player that auto-hides when not hovered (lockable)
