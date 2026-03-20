@@ -1,8 +1,12 @@
 <div align="center">
   <h6>macOS → Read the <a href="#installation">installation</a> guide or the app won't launch.</h6>
   <br>
-  <img width="128" height="auto" alt="icon" src="https://github.com/user-attachments/assets/cfbe52ce-6f2b-4d6b-900c-c65184434211" />
-  <h1>Resonance</h1>
+  <picture>
+    <source width="128" height="128" alt="Resonance Dark" media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/1a596760-f604-4217-a911-c74fe295d37c" />
+    <source width="128" height="128" alt="Resonance Light" media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/fbcbfaa8-9d82-4ae0-b2ec-7ec7bfc76bf3" />
+    <img alt="Resonance" src="https://github.com/user-attachments/assets/fbcbfaa8-9d82-4ae0-b2ec-7ec7bfc76bf3" />
+  </picture>
+  <h3>Resonance</h3>
   A lightweight local music player inspired by the golden era of classic desktop players.
   <br><br>
   <p>
@@ -11,34 +15,44 @@
   </p>
 </div>
 
-## Why Resonance?
+## No Subscriptions. No Algorithm Nonsense.
 
 Remember when software had a soul?  
-When your music player didn’t track you, feed you algorithms, or charge you $120/year just to hear the songs you already own?
+When your music player didn't track you, feed you algorithms, or charge $120 a year to play songs you don't own?
 
-[Resonance](https://github.com/Oxen-Studio/Resonance) brings back that era.  
-No subscriptions. No tracking. No algorithm pushing the latest industry plant.  
+**Resonance** aims to bring back what listening to music is really about.  
 Just you, your music library, and a skeuomorphic interface inspired by the golden age of desktop apps.
 
-All shipped as a simple, portable audio player.
+All shipped as a simple, portable audio player. **Own your music. Own your experience.**
 
-**Own your music. Own your experience.**
+## Supported Audio Formats
+
+All major formats are supported. Not sure which to use? Refer to this cheat sheet.
+
+| Format | Type | License | Usage |
+|--------|------|---------|-------|
+| MP3 | Lossy | Public Domain | Daily |
+| AAC | Lossy | Apple | Daily |
+| ALAC | Lossless | Apple | Enthusiasts |
+| AIFF | Lossless | Apple | Enthusiasts |
+| FLAC | Lossless | Open | Enthusiasts |
+| WAV | Lossless | Microsoft | ⚠ Production / DAW |
+| OGG | Lossy | Open | ⚠ Not recommended |
+| Opus | Lossy | Open | ⚠ Not recommended |
 
 ## Features
 
-Support any standard audio format, e.g. `MP3`, `FLAC`, `AIFF`, `ALAC`, `OGG`, `WAV`, etc.
-
 Browse your library, hit play instantly, and enjoy a clean, nostalgic experience.
 
-- **Instant Playback** - Load albums and play immediately
-- **Full Controls** - Play, pause, skip, shuffle, and loop
-- **Volume Control** - Adjust volume or mute anytime
-- **Equalizer** - Tune frequencies to your taste
-- **Mini Mode** - Compact player that auto-hides when not hovered (lockable)
-- **Skeuomorphic Design** - Frutiger Aero vibes, because flat design is boring
-- **Lightweight** - Won’t eat your RAM or slow you down
-- **Zero Tracking** - Your listening habits stay yours
-- **100% Local** - No internet, no data collection, no bullshit
+- **Instant Playback** - Load your library and play immediately.
+- **Full Controls** - Play, pause, skip, shuffle, and loop.
+- **Volume Control** - Adjust volume, pan, or mute anytime.
+- **Equaliser** - Fine-tune frequencies to your taste.
+- **Mini Mode** - Compact player for quick access.
+- **Skeuomorphic Design** - 2000s vibes, because flat design is boring.
+- **Lightweight** - Minimal footprint, runs on modest hardware.
+- **Zero Tracking** - Your listening habits stay yours.
+- **100% Local** - No internet, no data collection.
 
 <div align="center">
   <br>
@@ -48,68 +62,63 @@ Browse your library, hit play instantly, and enjoy a clean, nostalgic experience
   </p>
 </div>
 
+## Requirements
+
+RAM is kind of expensive right now... Performance is monitored before every update.
+
+- **~100 MB** of RAM for 1,000+ songs.
+- **~300 MB** of RAM and an SSD are recommended for large libraries of +10,000 songs.
+
+That said, the app is lightweight enough to probably run on your smart refrigerator.
+
 ## Installation
 
-Download the [latest version](https://github.com/Oxen-Studio/Resonance/releases) for your operating system and carefully follow the instructions below.
+Download the [latest version](https://github.com/Oxen-Studio/Resonance/releases/latest) for your operating system and follow the instructions below.
 
-Average memory usage: 100 MB of RAM for +1,000 songs.
-For large libraries of +10,000 songs, it is recommended to have at least 300 MB of RAM and an a SSD.  
-However, the app is lightweight and can probably run on your smart refrigerator.
-
-<details open>
-<summary><h3>Apple Silicon</h3></summary>
+### Apple Silicon
 
 Stable on Apple Silicon Macs running macOS Big Sur 11.0 or later.
 
-| Version | Status |
-|:-:|:-:|
-| macOS Sequoia 15.7.4 | Tested ✓ |
-| macOS Tahoe 26.3 | Tested ✓ |
+| | Version | Status |
+|-|---------|--------|
+| <img width="16" height="16" alt="macOS Tahoe" src="https://github.com/user-attachments/assets/80988eeb-a80a-4aaf-ad75-3e9cdf49f463" /> | macOS Tahoe `latest` | Tested ✓ |
+| <img width="16" height="16" alt="macOS Sequoia" src="https://github.com/user-attachments/assets/a37f9973-a739-4bc0-8a7e-3f50255ac39e" /> | macOS Sequoia | Tested ✓ |
 
-</details>
+1. Extract [Resonance_mac.zip](https://github.com/Oxen-Studio/Resonance/releases/latest/download/Resonance_mac.zip).
+2. Open <img width="16" height="16" alt="Terminal" src="https://github.com/user-attachments/assets/d9009a5b-9cf8-4253-899c-50f933442cfc" /> **Terminal**, press `⌘ Space`, type **Terminal** and hit `Enter`.
+3. Type the following command and hit `Enter`. Replace `Downloads` with the folder where you saved the app:
+```
+   cd Downloads
+```
+4. Run this command and hit `Enter`:
+```
+   xattr -dr com.apple.quarantine Resonance.app
+```
+5. Double-click the app to launch it, or move it to your `Applications` folder for quick access via **Spotlight**.
 
-1. Download `Resonance_mac` and extract it.
-
-> [!IMPORTANT]
-> - Open **Terminal** and navigate to the folder where the app is located  
->    e.g. `cd Downloads`  
-> - Remove quarantine attributes using the following command:  
->    `xattr -dr com.apple.quarantine Resonance.app`
-
-4. You can now safely use [Resonance](https://github.com/Oxen-Studio/Resonance)
-    - Launch it instantly from anywhere by simply double-clicking it.
-    - Or move the app to your `Applications` folder for quick access via **Spotlight**.
-
-<details open>
-<summary><h3>Windows</h3></summary>
+### Windows
 
 Stable on PCs running Windows 10 or later.
 
-| Version | Status |
-|:-:|:-:|
-| Windows 11 | Tested ✓ |
-| Windows 10 | Tested ✓ |
+| | Version | Status |
+|-|---------|--------|
+| <img width="16" height="16" alt="Windows 11" src="https://github.com/user-attachments/assets/81994aa0-9917-4653-8d97-d0d7e0d93521" /> | Windows 11 `latest` | Tested ✓ |
+| <img width="16" height="16" alt="Windows 10" src="https://github.com/user-attachments/assets/2411022e-fa87-41f3-bb62-8f63b0476017" /> | Windows 10 | Tested ✓ |
 
-</details>
+1. Download and extract [Resonance_win_exe.zip](https://github.com/Oxen-Studio/Resonance/releases/latest/download/Resonance_win_exe.zip).
+2. Double-click `Resonance.exe` to launch it.
+3. Click `More info` then `Run anyway` if <img width="16" height="16" alt="Windows Defender" src="https://github.com/user-attachments/assets/d7544da1-b84e-4591-80d5-e5a12e454714" /> **Windows Defender** warns you.
 
-- Download `Resonance_win` installer and extract it.
-- Double-click the installer and follow the prompts:
-  - Click `Proceed Anyway` if **Windows Defender** warns you.
-  - Confirm (or change) installation settings.
-  - Click `OK` to finish.
-- Launch from **Start Menu** or desktop shortcut.
+An [installer version](https://github.com/Oxen-Studio/Resonance/releases/latest/download/Resonance_win_install.zip) is also available.
 
 ### Linux
 
-###### Scheduled for the next major update.
+*Scheduled for the next major update.*
 
 ### Why the Extra Steps?
 
 > [!NOTE]
-> [Resonance](https://github.com/Oxen-Studio/Resonance) is a passion project. We don’t pay for Apple Developer or Windows Store certificates.
-
-Because the app isn’t digitally signed, macOS and Windows will show security warnings.  
-Following the steps above safely bypasses those warnings so you can use Resonance normally.
+> **Resonance** is a passion project not signed with an Apple Developer or Windows Store certificate. macOS and Windows will show a security warning as a result. The steps above safely bypass it.
 
 ## Q&A
 
@@ -117,8 +126,8 @@ Following the steps above safely bypasses those warnings so you can use Resonanc
 <summary><h3>How do I load music?</h3></summary>
 
 - <b>Drag & drop</b> or click the <b>folder icon</b> and select your music folder.
-  - Choose your entire library; full folder trees are supported
-  - Tested on an M1 Pro: a 4-level folder structure with <b>903 tracks</b> loads in <b>~1.16 seconds</b>
+  - Choose your entire library; full folder trees are supported.
+  - Tested on an M1 Pro: a 4-level folder structure with <b>903 tracks</b> loads in <b>~1.16 seconds</b>.
 
 <div align="center">
   <br>
@@ -161,69 +170,61 @@ Following the steps above safely bypasses those warnings so you can use Resonanc
 
 ## Roadmap
 
-###### Tracklist & Library
+#### Tracklist & Library
 - [x] Song title, artist, album art & details
 - [x] Bitrate & sample rate
-- [x] Multi-folder support
 - [x] Codec display
+- [x] Multi-folder support
 - [ ] Drag & drop file support
 
-###### Playback
+#### Playback
 - [x] SFX sounds
 - [ ] Gapless playback
 - [ ] OS media controls *(play, pause, skip via keyboard / system)*
 
-###### Equalizer
+#### Equaliser
 - [x] Basic EQ controls
 - [x] Presets
 - [x] Left / right balance
 - [x] Custom preset saving
 - [ ] Pitch & speed
 
-###### Visualizer
+#### Visualizer
 - [x] Simple visualizer
 - [ ] Old-school visualizer
 
-###### Library & Playlists
+#### Library & Playlists
 - [ ] Playlist support *(create, edit, reorder)*
 
-###### Metadata
+#### Metadata
 - [ ] ID3 tag editor
 
-###### Advanced
+#### Advanced
 - [ ] Transcoder / remuxer
 - [ ] Skin support
 - [ ] Play counter
-
-### Bonus
-
-> [!NOTE]
-> We made a small bash script to help manage your music. It’s not much, but it’s honest work.  
-> [Oxen Converter](https://github.com/Oxen-Studio/oxen-converter)
+- [ ] Last.fm integration
+- [ ] Automatic updates
 
 ## Contributing
 
-> [!TIP]
-> Found a bug?  
-> We value every contribution and carefully read every message, commit, and issue. We’ll definitely reply to each one.
+We value every contribution and carefully read every message, commit, and issue.
 
 - Open an issue for bugs or feature requests.
 - Share feedback on [Reddit](https://reddit.com/r/ResonanceApp/).
 - Got an idea for a custom skin? Let us know.
+- Need a music management tool? Check out [Oxen Converter](https://github.com/Oxen-Studio/oxen-converter).
 
 ## Philosophy
 
 Technology used to be cool.  
-Your music player didn’t spy on you.  
-The internet wasn’t five websites in a trench coat.
+Your music player didn't spy on you.  
+The internet wasn't five websites in a trench coat.
 
-Resonance isn’t trying to kill Spotify.  
-It’s just giving you back what you lost.
-
-**Stop renting. Start owning.**
+Resonance isn't trying to kill Spotify. **It's just giving you back what you lost.**
 
 ---
 
 Powered by [React](https://react.dev) and [Tauri](https://v2.tauri.app/).
 
-###### © 2026 Oxen Studio
+###### © Oxen Studio
