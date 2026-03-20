@@ -2,8 +2,8 @@
   <h6>macOS → Read the <a href="#installation">installation</a> guide or the app won't launch.</h6>
   <br>
   <picture>
-    <source width="128" height="128" alt="Resonance Dark" media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/1a596760-f604-4217-a911-c74fe295d37c" />
-    <source width="128" height="128" alt="Resonance Light" media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/fbcbfaa8-9d82-4ae0-b2ec-7ec7bfc76bf3" />
+    <source width="128" height="128" alt="Resonance Dark" media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/84bee56e-6005-41c6-b2d8-a2ef82250a4d" />
+    <source width="128" height="128" alt="Resonance Light" media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/8e0a5431-91c4-4a47-9233-79d3998de15c" />
     <img alt="Resonance" src="https://github.com/user-attachments/assets/fbcbfaa8-9d82-4ae0-b2ec-7ec7bfc76bf3" />
   </picture>
   <h3>Resonance</h3>
