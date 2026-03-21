@@ -34,8 +34,8 @@ All major formats are supported. Not sure which to use? Refer to this cheat shee
 | `MP3` | Public Domain | Best for daily use |
 | `AAC` | Apple | Best for daily use |
 | `M4A` | Apple | Container for `AAC` or `ALAC` |
-| `ALAC` | Apple | macOS only, not guaranteed on Windows |
-| `AIFF` | Apple | Best for enthusiasts |
+| `ALAC` | Apple | macOS only as standalone; Windows supported inside `M4A` |
+| `AIFF` | Apple | macOS only |
 | `FLAC` | Open | Best for enthusiasts |
 | `WAV` | Microsoft | ⚠ Intended for production / DAW use |
 | `OGG` | Open | ⚠ Not recommended |
