@@ -7,7 +7,7 @@
     <img alt="Resonance" src="https://github.com/user-attachments/assets/fbcbfaa8-9d82-4ae0-b2ec-7ec7bfc76bf3" />
   </picture>
   <h3>Resonance</h3>
-  A lightweight local music player inspired by the golden era of classic desktop players.
+  Pure local music experience inspired by the golden era of classic desktop players.
   <br><br>
   <p>
     <img width="49%" height="auto" alt="" src="https://github.com/user-attachments/assets/c1617d50-0807-4ea4-98da-9789e2b0fc16" />
@@ -25,22 +25,23 @@ Just you, your music library, and a skeuomorphic interface inspired by the golde
 
 All shipped as a simple, portable audio player. **Own your music. Own your experience.**
 
-## Supported Audio Formats
+## Supported Formats
 
 All major formats are supported. Not sure which to use? Refer to this cheat sheet.
 
-| Format | Type | License | Usage |
-|--------|------|---------|-------|
-| MP3 | Lossy | Public Domain | Daily |
-| AAC | Lossy | Apple | Daily |
-| ALAC | Lossless | Apple | Enthusiasts |
-| AIFF | Lossless | Apple | Enthusiasts |
-| FLAC | Lossless | Open | Enthusiasts |
-| WAV | Lossless | Microsoft | ⚠ Production / DAW |
-| OGG | Lossy | Open | ⚠ Not recommended |
-| Opus | Lossy | Open | ⚠ Not recommended |
+| Format | License | Notes |
+|--------|---------|-------|
+| `MP3` | Public Domain | Best for daily use |
+| `AAC` | Apple | Best for daily use |
+| `M4A` | Apple | Container for `AAC` or `ALAC` |
+| `ALAC` | Apple | macOS only, not guaranteed on Windows |
+| `AIFF` | Apple | Best for enthusiasts |
+| `FLAC` | Open | Best for enthusiasts |
+| `WAV` | Microsoft | ⚠ Intended for production / DAW use |
+| `OGG` | Open | ⚠ Not recommended |
+| `Opus` | Open | ⚠ Not recommended |
 
-## Features
+## What's Inside
 
 Browse your library, hit play instantly, and enjoy a clean, nostalgic experience.
 
@@ -63,6 +64,8 @@ Browse your library, hit play instantly, and enjoy a clean, nostalgic experience
 </div>
 
 ## Requirements
+
+**No dependencies** required.
 
 RAM is kind of expensive right now... Performance is monitored before every update.
 
@@ -119,15 +122,13 @@ An [installer version](https://github.com/Oxen-Studio/Resonance/releases/latest/
 
 > [!NOTE]
 > **Resonance** is a passion project not signed with an Apple Developer or Windows Store certificate. macOS and Windows will show a security warning as a result. The steps above safely bypass it.
-
 ## Q&A
 
-<details open>
-<summary><h3>How do I load music?</h3></summary>
+### How do I load music?
 
-- <b>Drag & drop</b> or click the <b>folder icon</b> and select your music folder.
+- **Drag & drop** or click the **folder icon** and select your music folder.
   - Choose your entire library; full folder trees are supported.
-  - Tested on an M1 Pro: a 4-level folder structure with <b>903 tracks</b> loads in <b>~1.16 seconds</b>.
+  - Tested on an M1 Pro: a 4-level folder structure with **903 tracks** loads in **~1.16 seconds**.
 
 <div align="center">
   <br>
@@ -137,19 +138,22 @@ An [installer version](https://github.com/Oxen-Studio/Resonance/releases/latest/
   </p>
 </div>
 
-</details>
+### Can I load music from a USB drive, external hard drive, or NAS?
 
-<details open>
-<summary><h3>How do I minimize the app?</h3></summary>
+- Yes. Resonance reads from any mounted drive your OS can see: USB sticks, external HDDs, SSDs, you name it.
+- If your NAS supports [SMB](https://en.wikipedia.org/wiki/Server_Message_Block), mount the share in your OS and Resonance will read it like any other folder.
 
-- Click the button <b>above the volume control</b> to enter Mini Mode.
+### Can I run Resonance from a USB drive alongside my library?
 
-</details>
+- Yes. Drop the app and your music on the same drive and plug it into any compatible machine. No installation needed.
 
-<details open>
-<summary><h3>The app disappeared. Help?!</h3></summary>
+### The app disappeared. Help?!
 
-- Click the <b>middle-right edge of your screen</b> (about an inch from the screen border).
+> [!NOTE]
+> You entered **Mini Mode**. It hides itself when not in use.
+
+- Click the **middle-right edge of your screen** (about an inch from the screen border).
+- Click the **lock icon** to pin the app in place and prevent this.
 
 <div align="center">
   <br>
@@ -159,14 +163,15 @@ An [installer version](https://github.com/Oxen-Studio/Resonance/releases/latest/
   </p>
 </div>
 
-</details>
+### Will there be a mobile or App Store version? What about Chromebook?
 
-<details open>
-<summary><h3>I want to prevent the app from disappearing</h3></summary>
+- Not planned. Platform rules, fees, and maintenance overhead do not suit a small indie project.
+- If there is enough support from the community, we are open to revisiting it.
 
-- Click the <b>lock icon</b> to pin the app in place.
+### Why isn't Resonance open source?
 
-</details>
+- AI crawlers and vibe-coded clones have made open source challenging for independent developers with limited resources.
+- Keeping the codebase closed lets us focus on actually building the thing instead of managing the chaos around it.
 
 ## Roadmap
 
@@ -175,7 +180,10 @@ An [installer version](https://github.com/Oxen-Studio/Resonance/releases/latest/
 - [x] Bitrate & sample rate
 - [x] Codec display
 - [x] Multi-folder support
-- [ ] Drag & drop file support
+- [x] Drag & drop file support
+- [x] Respect CD track order
+- [x] Auto-load previous folder on launch
+- [ ] Search within loaded library
 
 #### Playback
 - [x] SFX sounds
@@ -195,6 +203,11 @@ An [installer version](https://github.com/Oxen-Studio/Resonance/releases/latest/
 
 #### Library & Playlists
 - [ ] Playlist support *(create, edit, reorder)*
+- [ ] Favorites
+
+#### Interface
+- [x] Force light / dark theme
+- [ ] Mini Mode left / right position
 
 #### Metadata
 - [ ] ID3 tag editor
@@ -204,13 +217,14 @@ An [installer version](https://github.com/Oxen-Studio/Resonance/releases/latest/
 - [ ] Skin support
 - [ ] Play counter
 - [ ] Last.fm integration
+- [ ] Discord status integration
 - [ ] Automatic updates
 
 ## Contributing
 
 We value every contribution and carefully read every message, commit, and issue.
 
-- Open an issue for bugs or feature requests.
+- Open an [issue](https://github.com/Oxen-Studio/Resonance/issues) for bugs or feature requests.
 - Share feedback on [Reddit](https://reddit.com/r/ResonanceApp/).
 - Got an idea for a custom skin? Let us know.
 - Need a music management tool? Check out [Oxen Converter](https://github.com/Oxen-Studio/oxen-converter).
