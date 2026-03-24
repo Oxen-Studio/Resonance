@@ -207,6 +207,7 @@ An [installer version](https://github.com/Oxen-Studio/Resonance/releases/latest/
 
 #### Interface
 - [x] Force light / dark theme
+- [x] macOS Tahoe Liquid Glass Icon Support
 - [ ] Mini Mode left / right position
 
 #### Metadata
