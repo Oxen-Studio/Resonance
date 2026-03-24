@@ -187,8 +187,8 @@ An [installer version](https://github.com/Oxen-Studio/Resonance/releases/latest/
 
 #### Playback
 - [x] SFX sounds
+- [x] OS media controls *(play, pause, skip via keyboard / system)*
 - [ ] Gapless playback
-- [ ] OS media controls *(play, pause, skip via keyboard / system)*
 
 #### Equaliser
 - [x] Basic EQ controls
@@ -207,13 +207,13 @@ An [installer version](https://github.com/Oxen-Studio/Resonance/releases/latest/
 
 #### Interface
 - [x] Force light / dark theme
-- [x] macOS Tahoe Liquid Glass Icon Support
 - [ ] Mini Mode left / right position
 
 #### Metadata
 - [ ] ID3 tag editor
 
 #### Advanced
+- [x] macOS Tahoe Liquid Glass Icon Support
 - [ ] Transcoder / remuxer
 - [ ] Skin support
 - [ ] Play counter
