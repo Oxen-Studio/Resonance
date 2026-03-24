@@ -1,11 +1,7 @@
 <div align="center">
   <h6>macOS → Read the <a href="#installation">installation</a> guide or the app won't launch.</h6>
   <br>
-  <picture>
-    <source width="96" height="96" alt="Resonance Dark" media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/84bee56e-6005-41c6-b2d8-a2ef82250a4d" />
-    <source width="96" height="96" alt="Resonance Light" media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/8e0a5431-91c4-4a47-9233-79d3998de15c" />
-    <img alt="Resonance" src="https://github.com/user-attachments/assets/fbcbfaa8-9d82-4ae0-b2ec-7ec7bfc76bf3" />
-  </picture>
+  <img width="96" height="96" alt="Resonance" src="https://github.com/user-attachments/assets/84bee56e-6005-41c6-b2d8-a2ef82250a4d" />
   <h3>Resonance</h3>
   Pure local music experience inspired by the golden era of classic desktop players.
   <br><br>
