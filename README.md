@@ -207,6 +207,7 @@ An [installer version](https://github.com/Oxen-Studio/Resonance/releases/latest/
 
 #### Metadata
 - [ ] ID3 tag editor
+- [ ] Lyrics support
 
 #### Advanced
 - [x] macOS Tahoe Liquid Glass Icon Support
