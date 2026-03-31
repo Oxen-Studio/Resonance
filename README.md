@@ -85,9 +85,13 @@ Stable on Apple Silicon Macs running macOS Big Sur 11.0 or later.
 
 1. Extract [Resonance_mac.zip](https://github.com/Oxen-Studio/Resonance/releases/latest/download/Resonance_mac.zip).
 2. Open <img width="16" height="16" alt="Terminal" src="https://github.com/user-attachments/assets/d9009a5b-9cf8-4253-899c-50f933442cfc" /> **Terminal**, press `⌘ Space`, type **Terminal** and hit `Enter`.
-3. Type the following command and hit `Enter`. Replace `Downloads` with the folder where you saved the app:
+3. Type the following command and hit Enter, replacing Downloads with the folder where the app is located:
 ```
    cd Downloads
+```
+For example, if it's in `Applications`:
+```
+   cd /Applications
 ```
 4. Run this command and hit `Enter`:
 ```
