@@ -66,7 +66,7 @@ Browse your library, hit play instantly, and enjoy a clean, nostalgic experience
 RAM is kind of expensive right now... Performance is monitored before every update.
 
 - **~100 MB** of RAM for 1,000+ songs.
-- **~300 MB** of RAM and an SSD are recommended for large libraries of +10,000 songs.
+- **~200 MB** of RAM for large libraries of +10,000 songs.
 
 That said, the app is lightweight enough to probably run on your smart refrigerator.
 
@@ -116,7 +116,11 @@ An [installer version](https://github.com/Oxen-Studio/Resonance/releases/latest/
 
 ### Linux
 
-*Scheduled for the next major update.*
+#### Debian
+Download the .deb and install it with the package manager like this: ```sudo apt install ./Resonance_1.5.0_amd64.deb```
+
+#### Fedora
+Download the .rpm and install it with the package manager like this: ```dnf install ./Resonance-1.5.0-1.x86_64.rpm```
 
 ### Why the Extra Steps?
 
@@ -152,7 +156,7 @@ An [installer version](https://github.com/Oxen-Studio/Resonance/releases/latest/
 > [!NOTE]
 > You entered **Mini Mode**. It hides itself when not in use.
 
-- Click the **middle-right edge of your screen** (about an inch from the screen border).
+- ~~Click~~ hover the **middle-right edge of your screen** (about an inch from the screen border).
 - Click the **lock icon** to pin the app in place and prevent this.
 
 <div align="center">
@@ -183,7 +187,7 @@ An [installer version](https://github.com/Oxen-Studio/Resonance/releases/latest/
 - [x] Drag & drop file support
 - [x] Respect CD track order
 - [x] Auto-load previous folder on launch
-- [ ] Search within loaded library
+- [x] Search within loaded library
 
 #### Playback
 - [x] SFX sounds
