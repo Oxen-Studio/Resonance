@@ -202,6 +202,7 @@ dnf install ./Resonance-1.5.0-1.x86_64.rpm
 #### Playback
 - [x] SFX sounds
 - [x] OS media controls *(play, pause, skip via keyboard / system)*
+- [ ] Rework of the shuffle (to actually be a list, not a random song that is not the previous song)
 - [ ] Gapless playback
 
 #### Equaliser
