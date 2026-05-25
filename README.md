@@ -137,6 +137,8 @@ sudo apt update && sudo apt upgrade
 sudo apt install distrobox -y
 ```
 3. Fetch and install the fedora 40 container (podman)
+
+    > *Tested 39 to 45 and only the 40 is working correctly* 
 ```
 distrobox create -n fedora -i fedora:40
 ```
