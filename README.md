@@ -161,9 +161,9 @@ sudo dnf install \
   gstreamer1-libav \
   gstreamer1-plugin-openh264
 ```
-7. Install Resonance (I suppose that it's located in the downloads folder)
+7. Install Resonance (I suppose that it's located in the downloads folder and check for the file name, the version can be missmatch)
 ```
-sudo dnf install ./Downloads/Resonance-1.5.0-1.x86_64.rpm -y
+sudo dnf install ./Downloads/Resonance-1.5.1-1.x86_64.rpm -y
 ```
 8. Export the app to the host
 ```
