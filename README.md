@@ -115,7 +115,7 @@ Stable on PCs running Windows 10 or later.
 An [installer version](https://github.com/Oxen-Studio/Resonance/releases/latest/download/Resonance_win_install.zip) is also available.
 
 ### Linux
-
+Unfortunatly the Linux experience is not working out as intended (see the Other Distros part just below), and thus is considerated unstable, the app does have all it's features working but you might encounter some bad UX so beware (sorry).
 #### Fedora
 Download [Resonance_linux_x86_x64_rpm.zip](https://github.com/Oxen-Studio/Resonance/releases/latest/download/Resonance_linux_x86_x64_rpm.zip
 )  and install it with the package manager like this:
@@ -123,15 +123,34 @@ Download [Resonance_linux_x86_x64_rpm.zip](https://github.com/Oxen-Studio/Resona
 ```
 dnf install ./Resonance-1.5.0-1.x86_64.rpm
 ```
-### Other distro
-1. ```sudo apt update && sudo apt upgrade```
-2. ```sudo apt install distrobox -y```
-3. ```distrobox create -n fedora -i fedora:40```
-4. ```distrobox enter fedora```
-5. ```sudo dnf update && sudo dnf upgrade```
-6.
+### Other distros or if you still have problems
+Since Resonance rely heavily webkitgtk, it's stability and performance is highly tied to it's version.
+The problem is that currently most of the distro (debian/ubunut/linux mint) comes with old version of it, and these versions contains bugs that brokes the audio.
+To fix that the hack is to run a container using a distro that is known to have less bugs:
+
+1. Update your system
 ```
-   sudo dnf install \
+sudo apt update && sudo apt upgrade
+```
+2. Install distrobox
+```
+sudo apt install distrobox -y
+```
+3. Fetch and install the fedora 40 container (podman)
+```
+distrobox create -n fedora -i fedora:40
+```
+4. Enter the container
+```
+distrobox enter fedora
+```
+5. Check that everything is up to date in it
+```
+sudo dnf update && sudo dnf upgrade
+```
+6. Install gstreamer dependencies
+```
+sudo dnf install \
   gstreamer1 \
   gstreamer1-plugins-base \
   gstreamer1-plugins-good \
@@ -140,8 +159,16 @@ dnf install ./Resonance-1.5.0-1.x86_64.rpm
   gstreamer1-libav \
   gstreamer1-plugin-openh264
 ```
-7. ```sudo dnf install ./Resonance-1.5.0-1.x86_64.rpm -y```
-8. ```distrobox-export --app Resonance```
+7. Install Resonance (I suppose that it's located in the downloads folder)
+```
+sudo dnf install ./Downloads/Resonance-1.5.0-1.x86_64.rpm -y
+```
+8. Export the app to the host
+```
+distrobox-export --app Resonance
+```
+Done now you can Resonance in you apps !
+
 
 ### Why the Extra Steps?
 
