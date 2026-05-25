@@ -116,14 +116,6 @@ An [installer version](https://github.com/Oxen-Studio/Resonance/releases/latest/
 
 ### Linux
 
-#### Debian
-Download [Resonance_linux_x86_x64_deb.zip](https://github.com/Oxen-Studio/Resonance/releases/latest/download/Resonance_linux_x86_x64_deb.zip
-) and install it with the package manager like this:
-
-```
-sudo apt install ./Resonance_1.5.0_amd64.deb
-```
-
 #### Fedora
 Download [Resonance_linux_x86_x64_rpm.zip](https://github.com/Oxen-Studio/Resonance/releases/latest/download/Resonance_linux_x86_x64_rpm.zip
 )  and install it with the package manager like this:
@@ -131,6 +123,25 @@ Download [Resonance_linux_x86_x64_rpm.zip](https://github.com/Oxen-Studio/Resona
 ```
 dnf install ./Resonance-1.5.0-1.x86_64.rpm
 ```
+### Other distro
+1. ```sudo apt update && sudo apt upgrade```
+2. ```sudo apt install distrobox -y```
+3. ```distrobox create -n fedora -i fedora:40```
+4. ```distrobox enter fedora```
+5. ```sudo dnf update && sudo dnf upgrade```
+6.
+```
+   sudo dnf install \
+  gstreamer1 \
+  gstreamer1-plugins-base \
+  gstreamer1-plugins-good \
+  gstreamer1-plugins-bad-free \
+  gstreamer1-plugins-ugly-free \
+  gstreamer1-libav \
+  gstreamer1-plugin-openh264
+```
+7. ```sudo dnf install ./Resonance-1.5.0-1.x86_64.rpm -y```
+8. ```distrobox-export --app Resonance```
 
 ### Why the Extra Steps?
 
