@@ -277,6 +277,30 @@ Done now you can Resonance in you apps !
 - [ ] Discord status integration
 - [ ] Automatic updates
 
+#### Release versions
+##### v2
+- [ ] Code base refacto
+- [ ] Skin support
+- [ ] Rework of the shuffle (to actually be a list, not a random song that is not the previous song)
+- [ ] Gapless playback
+- [ ] Mini Mode left / right position
+
+##### v2.1
+- [ ] Old-school visualizer
+- [ ] Lyrics support
+
+#### v2.3
+- [ ] Playlist support *(create, edit, reorder)*
+- [ ] Favorites
+
+##### v2.3
+- [ ] Play counter
+- [ ] Last.fm integration
+- [ ] Discord status integration
+
+#### v2.x TBA
+
+
 ## Contributing
 
 We value every contribution and carefully read every message, commit, and issue.
