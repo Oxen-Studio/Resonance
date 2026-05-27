@@ -289,7 +289,7 @@ Done now you can Resonance in you apps !
 - [ ] Old-school visualizer
 - [ ] Lyrics support
 
-#### v2.3
+#### v2.2
 - [ ] Playlist support *(create, edit, reorder)*
 - [ ] Favorites
 
