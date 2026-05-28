@@ -263,6 +263,8 @@ Done now you can Resonance in you apps !
 #### Interface
 - [x] Force light / dark theme
 - [ ] Mini Mode left / right position
+- [ ] Minimize fully the app
+- [ ] Making the UI scale up or down (via user input or auto detect monitor dimensions ?)
 
 #### Metadata
 - [ ] ID3 tag editor
@@ -276,6 +278,7 @@ Done now you can Resonance in you apps !
 - [ ] Last.fm integration
 - [ ] Discord status integration
 - [ ] Automatic updates
+- [ ] Move the audio pipeline to the backend
 
 #### Release versions
 ##### v2
@@ -299,6 +302,10 @@ Done now you can Resonance in you apps !
 - [ ] Discord status integration
 
 #### v2.x TBA
+- [ ] Minimize fully the app
+- [ ] Making the UI scale up or down (via user input or auto detect monitor dimensions ?)
+- [ ] Move the audio pipeline to the backend
+
 
 
 ## Contributing
