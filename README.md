@@ -99,6 +99,11 @@ For example, if it's in `Applications`:
 ```
 5. Double-click the app to launch it, or move it to your `Applications` folder for quick access via **Spotlight**.
 
+### Apple Intel
+
+Same as apple Silicon, download the universal build (Apple silicon + Apple intel):
+[Resonance_mac.zip](https://github.com/Oxen-Studio/Resonance/releases/latest/download/Resonance_mac_universal.zip).
+
 ### Windows
 
 Stable on PCs running Windows 10 or later.
