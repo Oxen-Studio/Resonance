@@ -102,7 +102,7 @@ For example, if it's in `Applications`:
 ### Apple Intel
 
 Same as apple Silicon, download the universal build (Apple silicon + Apple intel):
-[Resonance_mac.zip](https://github.com/Oxen-Studio/Resonance/releases/latest/download/Resonance_mac_universal.zip).
+[Resonance_mac_universal.zip](https://github.com/Oxen-Studio/Resonance/releases/latest/download/Resonance_mac_universal.zip).
 
 ### Windows
 
