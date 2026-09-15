@@ -1,4 +1,10 @@
 <div align="center">
+  <a href="https://www.patreon.com/OxenStudio/posts/resonance-v2-169613890" target="_blank" rel="noopener noreferrer">
+    <img width="1200" height="675" alt="Resonance V2 (Customization Engine)" src="https://github.com/user-attachments/assets/7758ca12-e96f-41ae-ac5c-86b0eead7f5b" />
+  </a>
+</div>
+
+<div align="center">
   <h6>macOS → Read the <a href="#installation">installation</a> guide or the app won't launch.</h6>
   <br>
   <img width="96" height="96" alt="Resonance" src="https://github.com/user-attachments/assets/84bee56e-6005-41c6-b2d8-a2ef82250a4d" />
